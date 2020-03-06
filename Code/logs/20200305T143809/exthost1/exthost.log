@@ -1,0 +1,28 @@
+[2020-03-05 14:38:11.691] [exthost] [info] extension host started
+[2020-03-05 14:38:11.713] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-03-05 14:38:11.714] [exthost] [info] ExtensionService#loadCommonJSModule file:///d:/MyApp/VSCode/Microsoft VS Code/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-03-05 14:38:11.719] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-03-05 14:38:11.719] [exthost] [info] ExtensionService#loadCommonJSModule file:///d:/MyApp/VSCode/Microsoft VS Code/resources/app/extensions/emmet/dist/extension
+[2020-03-05 14:38:11.738] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-03-05 14:38:11.738] [exthost] [info] ExtensionService#loadCommonJSModule file:///d:/MyApp/VSCode/Microsoft VS Code/resources/app/extensions/git/dist/main
+[2020-03-05 14:38:11.775] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-03-05 14:38:11.775] [exthost] [info] ExtensionService#loadCommonJSModule file:///d:/MyApp/VSCode/Microsoft VS Code/resources/app/extensions/merge-conflict/dist/extension
+[2020-03-05 14:38:11.779] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-03-05 14:38:11.779] [exthost] [info] ExtensionService#loadCommonJSModule file:///d:/MyApp/VSCode/Microsoft VS Code/resources/app/extensions/search-result/dist/extension.js
+[2020-03-05 14:38:11.780] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
+[2020-03-05 14:38:11.780] [exthost] [info] ExtensionService#loadCommonJSModule file:///d:/MyApp/VSCode/Microsoft VS Code/resources/app/extensions/vscode-account/dist/extension.js
+[2020-03-05 14:38:11.784] [exthost] [info] eager extensions activated
+[2020-03-05 14:38:49.192] [exthost] [info] extension host started
+[2020-03-05 14:38:49.212] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-03-05 14:38:49.212] [exthost] [info] ExtensionService#loadCommonJSModule file:///d:/MyApp/VSCode/Microsoft VS Code/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-03-05 14:38:49.218] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-03-05 14:38:49.218] [exthost] [info] ExtensionService#loadCommonJSModule file:///d:/MyApp/VSCode/Microsoft VS Code/resources/app/extensions/emmet/dist/extension
+[2020-03-05 14:38:49.227] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-03-05 14:38:49.227] [exthost] [info] ExtensionService#loadCommonJSModule file:///d:/MyApp/VSCode/Microsoft VS Code/resources/app/extensions/git/dist/main
+[2020-03-05 14:38:49.244] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-03-05 14:38:49.245] [exthost] [info] ExtensionService#loadCommonJSModule file:///d:/MyApp/VSCode/Microsoft VS Code/resources/app/extensions/merge-conflict/dist/extension
+[2020-03-05 14:38:49.249] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-03-05 14:38:49.249] [exthost] [info] ExtensionService#loadCommonJSModule file:///d:/MyApp/VSCode/Microsoft VS Code/resources/app/extensions/search-result/dist/extension.js
+[2020-03-05 14:38:49.250] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
+[2020-03-05 14:38:49.250] [exthost] [info] ExtensionService#loadCommonJSModule file:///d:/MyApp/VSCode/Microsoft VS Code/resources/app/extensions/vscode-account/dist/extension.js
+[2020-03-05 14:38:49.252] [exthost] [info] eager extensions activated

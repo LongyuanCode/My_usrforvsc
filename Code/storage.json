@@ -1,0 +1,38 @@
+{
+    "telemetry.machineId": "b65c72cb8cacc5b26585e2674b8fcc49b09dd83934824b4294c262835f972d73",
+    "openedPathsList": {
+        "workspaces3": [
+            "file:///d%3A/MyApp/VS_Markdown",
+            "file:///d%3A/MyCode_CPP",
+            "file:///d%3A/MyApp/te",
+            "file:///d%3A/MyCode_py",
+            "file:///d%3A/MyCode",
+            "file:///d%3A/MyApp",
+            "file:///d%3A/",
+            "file:///d%3A/MyCode/.vscode",
+            "file:///d%3A/MyCode/test",
+            "file:///d%3A/MyApp/VSCode"
+        ],
+        "files2": [
+            "file:///d%3A/MyApp/VS_Markdown/test.md",
+            "file:///d%3A/%E6%88%91%E7%9A%84%E4%BD%BF%E7%94%A8/%E6%88%91%E7%9A%84%E8%B5%84%E6%96%99/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89%E4%B8%8E%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB%E8%AF%BE/%E4%BD%9C%E4%B8%9A/1/%E6%BA%90.cpp"
+        ]
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#282c34",
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///d%3A/MyApp/VS_Markdown",
+            "backupPath": "c:\\Users\\18868\\AppData\\Roaming\\Code\\Backups\\28a248b9018886c28d4433556d6b8e6b",
+            "uiState": {
+                "mode": 0,
+                "x": 256,
+                "y": 48,
+                "width": 1024,
+                "height": 768
+            }
+        },
+        "openedWindows": []
+    },
+    "pickerWorkingDir": "D:\\"
+}

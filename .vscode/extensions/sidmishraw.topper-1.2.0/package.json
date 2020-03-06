@@ -1,0 +1,184 @@
+{
+	"name": "topper",
+	"displayName": "topper",
+	"description": "A fileheader utility.",
+	"version": "1.2.0",
+	"publisher": "sidmishraw",
+	"engines": {
+		"vscode": "^1.13.0"
+	},
+	"categories": [
+		"Snippets",
+		"Other"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./out/src/extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "topper.addTopHeader",
+				"title": "Topper: Add default profile header"
+			}
+		],
+		"configuration": {
+			"type": "object",
+			"title": "Topper configuration",
+			"properties": {
+				"topper.customTemplateParameters": {
+					"type": "array",
+					"description": "Configures template parameters. These parameters can be used in the header templates as placeholders.",
+					"default": [
+						{
+							"personalProfile": {
+								"author": "bulbasaur",
+								"website": "bulbasaur.github.bitbucket.yababbdadado.com",
+								"copyright": "None \n None",
+								"license": "None",
+								"email": "ivysaur.bulbasaur@venosaur.com"
+							}
+						},
+						{
+							"officeProfile": {
+								"author": "John Doe",
+								"department": "Product Development",
+								"email": "john.doe@doejohn.com"
+							}
+						}
+					]
+				},
+				"topper.defaultHeaderTemplate": {
+					"type": "object",
+					"description": "The default header template that can be used for all languages if no-custom template is defined. The default language ID is `default`. Please don't use some other language ID for the default header template.",
+					"default": {
+						"default": {
+							"headerBegin": "/**",
+							"headerPrefix": "*",
+							"headerEnd": "*/",
+							"template": [
+								"${headerBegin}",
+								"${headerPrefix} ${fileName}",
+								"${headerPrefix} @author ${author}",
+								"${headerPrefix} @description ${description}",
+								"${headerPrefix} @created ${createdDate}",
+								"${headerPrefix} @copyright ${copyright}",
+								"${headerPrefix} @last-modified ${lastModifiedDate}",
+								"${headerEnd}"
+							]
+						}
+					}
+				},
+				"topper.headerTemplates": {
+					"type": "array",
+					"description": "Configure the templates for the headers depending on the languageId inferred by the editor. The list of language Ids can be found here: https://code.visualstudio.com/docs/languages/identifiers. \nIf the file's languageId is not configured here, it defaults to the `defaultCStyled` header template. \nPlease do not delete this template. Copy it over when configuring this section. \nNote: Please keep the `defaultCStyled` as the first element in the list of all the header templates. \nFor more information, refer to the Readme.md.",
+					"default": [
+						{
+							"python": {
+								"headerBegin": "#",
+								"headerPrefix": "#",
+								"headerEnd": "#",
+								"template": [
+									"${headerBegin}",
+									"${headerPrefix} ${fileName}",
+									"${headerPrefix} @author ${author}",
+									"${headerPrefix} @description ${description}",
+									"${headerPrefix} @created ${createdDate}",
+									"${headerPrefix} @last-modified ${lastModifiedDate}",
+									"${headerEnd}"
+								]
+							}
+						},
+						{
+							"php": {
+								"headerBegin": "/*",
+								"headerPrefix": "*",
+								"headerEnd": "*/",
+								"template": [
+									"${headerBegin}",
+									"${headerPrefix} ${fileName}",
+									"${headerPrefix} @author ${author}",
+									"${headerPrefix} @description ${description}",
+									"${headerPrefix} @created ${createdDate}",
+									"${headerPrefix} @last-modified ${lastModifiedDate}",
+									"${headerEnd}"
+								]
+							}
+						}
+					]
+				},
+				"topper.lastModified": {
+					"type": "string",
+					"description": "The key of the last-modified field in the header template. For eg: @last-modified. Topper looks for this to determine if it needs to update the last-modified date-time value in your header.",
+					"default": "@last-modified"
+				},
+				"topper.lastModifiedRegex": {
+					"type": "string",
+					"format": "regex",
+					"description": "The regular expression used for capturing the last modified date in the header and auto-update it when the file is saved.",
+					"default": "[ ]*\\@last\\-modified\\s*.?\\s+((\\d{4}-\\d{2}-\\d{2})T(\\d{2}:\\d{2}:\\d{2}\\.\\d{3})Z([\\+\\-]?\\d{2}:\\d{2}))\\n*"
+				},
+				"topper.dateFormat": {
+					"type": "string",
+					"description": "The format to be used for created date and last modified date values in the header. Topper uses Moment.js so please refer to the date formatting rules mentioned in moment.js. https://momentjs.com/docs/ . The default is ISO date format.",
+					"default": "YYYY-MM-DD[T]HH:mm:ss.SSS[Z]Z"
+				},
+				"topper.insertAtRow": {
+					"type": "number",
+					"description": "The row from where to insert the header string at! Defaults to 0",
+					"format": "integer",
+					"default": 0
+				},
+				"topper.insertAtCol": {
+					"type": "number",
+					"description": "The column from where to insert the header string at! Defaults to 0",
+					"format": "integer",
+					"default": 0
+				}
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "tsc -p ./",
+		"compile": "tsc --watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"copy": "cp -r ./src/resources ./out/src",
+		"clean": "rm -r ./out/src/resources",
+		"test": "node ./node_modules/vscode/bin/test",
+		"version": "node ./scripts/version.js && git add CHANGELOG.md"
+	},
+	"devDependencies": {
+		"@types/bluebird": "^3.5.26",
+		"@types/mocha": "^5.2.1",
+		"@types/node": "^8.10.39",
+		"@types/resolve": "0.0.8",
+		"cross-env": "^5.1.6",
+		"mocha": "^5.2.0",
+		"vscode": "^1.1.33"
+	},
+	"keywords": [
+		"file header",
+		"fileheader",
+		"template",
+		"code template"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sidmishraw/topper.git"
+	},
+	"bugs": {
+		"url": "https://github.com/sidmishraw/topper/issues",
+		"email": "sidmishraw@hotmail.com"
+	},
+	"dependencies": {
+		"@types/mustache": "^0.8.32",
+		"bluebird": "^3.5.4",
+		"moment": "^2.24.0",
+		"mustache": "^3.0.1"
+	},
+	"__metadata": {
+		"id": "eb80867d-e914-4751-b260-c4fb8bf55745",
+		"publisherId": "e6604a50-c28d-4162-af0e-bb35acfd261e",
+		"publisherDisplayName": "Sidharth Mishra"
+	}
+}

@@ -1,0 +1,6 @@
+[2020-03-05 17:22:41.979] [main] [info] update#setState idle
+[2020-03-05 17:23:11.981] [main] [info] update#setState checking for updates
+[2020-03-05 17:23:12.220] [main] [info] update#setState idle
+[2020-03-05 18:43:42.368] [main] [info] update#setState checking for updates
+[2020-03-05 18:43:42.403] [main] [error] Error: net::ERR_INTERNET_DISCONNECTED
+[2020-03-05 18:43:42.404] [main] [info] update#setState idle

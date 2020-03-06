@@ -1,0 +1,26 @@
+[2020-03-05 15:39:31.117] [exthost] [info] extension host started
+[2020-03-05 15:39:31.137] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-03-05 15:39:31.137] [exthost] [info] ExtensionService#loadCommonJSModule file:///d:/MyApp/VSCode/Microsoft VS Code/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-03-05 15:39:31.141] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-03-05 15:39:31.141] [exthost] [info] ExtensionService#loadCommonJSModule file:///d:/MyApp/VSCode/Microsoft VS Code/resources/app/extensions/emmet/dist/extension
+[2020-03-05 15:39:31.151] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-03-05 15:39:31.151] [exthost] [info] ExtensionService#loadCommonJSModule file:///d:/MyApp/VSCode/Microsoft VS Code/resources/app/extensions/git/dist/main
+[2020-03-05 15:39:31.167] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-03-05 15:39:31.167] [exthost] [info] ExtensionService#loadCommonJSModule file:///d:/MyApp/VSCode/Microsoft VS Code/resources/app/extensions/merge-conflict/dist/extension
+[2020-03-05 15:39:31.170] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-03-05 15:39:31.170] [exthost] [info] ExtensionService#loadCommonJSModule file:///d:/MyApp/VSCode/Microsoft VS Code/resources/app/extensions/search-result/dist/extension.js
+[2020-03-05 15:39:31.171] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
+[2020-03-05 15:39:31.172] [exthost] [info] ExtensionService#loadCommonJSModule file:///d:/MyApp/VSCode/Microsoft VS Code/resources/app/extensions/vscode-account/dist/extension.js
+[2020-03-05 15:39:31.180] [exthost] [info] eager extensions activated
+[2020-03-05 15:39:42.791] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:markdown"}
+[2020-03-05 15:39:42.791] [exthost] [info] ExtensionService#loadCommonJSModule file:///d:/MyApp/VSCode/Microsoft VS Code/resources/app/extensions/extension-editing/dist/extension
+[2020-03-05 15:39:42.796] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features {"startup":false,"extensionId":{"value":"vscode.markdown-language-features","_lower":"vscode.markdown-language-features"},"activationEvent":"onLanguage:markdown"}
+[2020-03-05 15:39:42.796] [exthost] [info] ExtensionService#loadCommonJSModule file:///d:/MyApp/VSCode/Microsoft VS Code/resources/app/extensions/markdown-language-features/dist/extension
+[2020-03-05 15:39:56.220] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:json"}
+[2020-03-05 15:39:56.220] [exthost] [info] ExtensionService#loadCommonJSModule file:///d:/MyApp/VSCode/Microsoft VS Code/resources/app/extensions/configuration-editing/dist/extension
+[2020-03-05 15:39:56.224] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:json"}
+[2020-03-05 15:39:56.224] [exthost] [info] ExtensionService#loadCommonJSModule file:///d:/MyApp/VSCode/Microsoft VS Code/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2020-03-05 15:39:56.233] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":false,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"onLanguage:json"}
+[2020-03-05 15:39:56.234] [exthost] [info] ExtensionService#loadCommonJSModule file:///d:/MyApp/VSCode/Microsoft VS Code/resources/app/extensions/npm/dist/main
+[2020-03-05 15:39:56.425] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2020-03-05 15:39:56.425] [exthost] [info] ExtensionService#loadCommonJSModule file:///d:/MyApp/VSCode/Microsoft VS Code/resources/app/extensions/typescript-language-features/dist/extension

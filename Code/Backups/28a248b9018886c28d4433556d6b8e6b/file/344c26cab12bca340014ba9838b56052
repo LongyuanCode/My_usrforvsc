@@ -1,0 +1,17 @@
+file:///d%3A/MyApp/VS_Markdown/test2.md {"mtime":1583324024987,"ctime":1583306223689,"size":2,"etag":"34mo9lqms2","orphaned":false}
+1. one
+
+console.log('');
+
+$\alpha$ 
+
+```math
+\frac{1}{2}
+```
+****
+## 快捷键设置
+
+[这个网站指出VSCode默认禁止了Markdown编辑中的snippets建议，并介绍了设置snippets快捷键的办法。](https://blog.walterlv.com/post/key-binding-to-snippets-for-vscode.html)
+**但是明明在设置中已经打开了snippets建议**
+***
+MPE教程中有介绍了丰富的绘图教学，目前建议学学*TikZ*,这是<em>**L^A^T~E~X**</em>中的绘图工具。
